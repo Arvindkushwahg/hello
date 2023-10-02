@@ -1,0 +1,241 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+nav{
+	background: #E7E6E9;
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	padding: 0 90px;
+	position: fixed;
+}
+.menu a{
+	font-size: 20px;
+	font-family: monospace;
+	text-decoration: none;
+	margin: 10px;
+	}
+.button{
+	background: #ff2b85;
+	border: none;
+	border-radius: 10px;
+	width: 105px;
+	height: 25px;
+}
+.banner{
+	background: url(../image/banner.jpg);
+	width: 100%;
+	height: 500px;
+	background-position: center;
+	background-size: cover;
+}
+.banner h3{
+	color: #00FD32;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 300px;
+}
+.border{
+	background:#c5c5c969;
+	width: 100%;
+	height: 60px;
+	margin-top: -30px;
+}
+.about{
+	background:#c5c5c969;
+	padding: 72px 300px;
+	}
+
+.about h3{
+	font-size: 35px;
+	color: #ff4896;
+	text-align: center;
+	margin-bottom: 10px;
+}	
+.about p{
+	font-size: 20px;
+	text-align: center;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	font-family: serif;
+
+}
+.about button{
+	margin: 20px 377px;
+    width: 167px;
+    height: 30px;
+    color: black;
+    background: #ff00e9;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+}
+.about button:hover{
+	background-color: aqua;
+}
+.press{
+	background: url(../image/ba.jpg);
+	width: 100%;
+	height: 600px;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.press h3{
+	text-align: center;
+	color: blue;
+	font-size: 50px;
+	padding-top: 350px;
+}
+.press p{
+	color: red;
+	font-size: 20px;
+	padding: 0px 300px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+	font-family: serif;
+}
+
+.press button{
+	width: 167px;
+    height: 30px;
+    color: black;
+    background: #FDFF73;
+    font-size: 20px;
+    border-radius: 15px;
+    margin: 20px 670px;
+    border: none;
+}
+.press button:hover{
+	background-color:#ff00e9 ;
+}
+.team{
+	background: url(../image/schooter.jpg);
+	width: 100%;
+	height: 550px;
+	background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.team h3{
+	text-align: center;
+	color: #00FE4E;
+	font-size: 50px;
+	padding-top: 350px;
+
+}
+.team p{
+	font-size: 20px;
+    color: #5bfe00;
+    text-align: center;
+    padding: 10px 300px;
+}
+.team button{
+	width: 167px;
+    height: 30px;
+    border: none;
+    background: orangered;
+    color: aqua;
+    border-radius: 15px;
+    margin-left: 650px;
+    font-size: 20px;
+    font-family: emoji;
+}
+.team button:hover{
+	background-color: black;
+}
+.dl{
+	background: url(../image/fp2.jpg);
+	width: 100%;
+	height: 550px;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+.brand{
+	background-color: #EF358D;
+	width: 100%;
+	height: 300px;
+}
+.brand h3{
+	font-size: 20px;
+	color: white;
+	padding-top: 100px;
+	text-align: center;
+}
+.brand p{
+	font-size: 20px;
+	text-align: center;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	font-family: serif;
+	padding: 10px 300px;
+
+}
+.brand button{
+	width: 167px;
+    height: 30px;
+    color: black;
+    background: #FDFF73;
+    font-size: 20px;
+    border-radius: 15px;
+    margin: 20px 670px;
+    border: none;
+}
+.brand button:hover{
+	background-color:#ff00e9 ;
+}
+footer{
+    background: white;
+    width: 100%;
+    height: 120px;
+    padding: 40px 130px;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.first-1{
+    display: flex;
+ }
+ .first-1 span{
+ 	padding: 10px;
+ 	border: 1px solid black;
+ 	border-radius: 5px;
+ 	margin-right: 20px;
+ 	font-weight: 400;
+ }
+
+ .second{
+ 	display: flex;
+ 	justify-content: space-around;
+ 	margin: 30px 0;
+ }
+ .second div{
+ 	width: 200px;
+ }
+ .second h4{
+ 	font-weight: lighter;
+ 	color: rgb(22,22,22);
+ 	/*white-space: nowrap;*/
+ 	margin-bottom: 10px;
+ }
+ .second a{
+ 	display: inline-block;
+ 	width: 200px;
+ 	margin-bottom: 7px;
+ 	white-space: nowrap;
+ 	text-decoration: none;
+ 	color: gray;
+ 	font-size: 1rem;
+ }
+ .third{
+ 	padding: 10px 0;
+ 	color: red;
+    font-size: 0.7rem;
+ }

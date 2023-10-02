@@ -1,0 +1,173 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+ }
+nav{
+	background: white;
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 50px;
+}
+.menu a{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	font-family: monospace;
+	margin: 0 7px;
+
+}
+.gray
+	width: 100%;
+	height: 500px;
+/*overflow: hidden;*/	
+}
+/*aabout css */
+.about{
+	width: 100%;
+	height: 500px;
+	background: white;
+	text-align: center;
+	padding: 200px 250px;
+}
+.about button{
+	width: 215px;
+	height: 43px;
+	background: #ff2b85;
+	color: white;
+	border: none;
+	font-size: 16px;
+	margin-top: 10px;
+	border-radius: 8px;
+}
+.press{
+	background-image: url(../image/arvind.jpg);
+	width: 100%;
+	height: 550px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.team{
+	background-image: url(../image/car.jpg);
+	width: 100%;
+	height: 550px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.contact{
+	background:#ff2b85;
+	width: 100%;
+	height: 300px;
+}
+.footer{
+	background: white;
+	width: 100%;
+	height: ;
+}
+#video{
+	width: auto;
+    height: 53rem;
+    object-fit: cover;
+}
+#m1{
+	padding: 9rem;
+	font-size: 1.5rem
+}
+.m2{
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+.m2 .item{
+	width: 50%;
+	
+	margin-left:4rem;
+ 
+}
+.m2 .item img{
+	    height: 25rem;
+    width: 33rem;
+}
+.m2 .item1 {
+
+	font-size: 1.2rem;
+	padding: 5rem;
+} 
+.item{
+	text-align: center;
+}
+.btn{
+	color: red;
+	font-size: 20px;
+	border-color: transparent;
+
+}
+footer{
+
+	padding: 40px 120px;
+	background: black;
+
+}
+
+.second{
+
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0;
+
+}
+
+.second div{
+
+	width: 112px;
+}
+
+
+.second h4{
+
+     font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.second a{
+
+	text-decoration: none;
+	color: white;
+	margin: 10px 8px;
+
+}
+
+.coll a{
+
+	text-decoration: none;
+	margin-left: -7px;
+}
+
+.coll h4{
+
+	margin-left: -13px;
+}
+
+.Follow i{
+
+	font-size: 25px;
+	margin-right: -5px
+}
+
+.p{
+
+	display: flex;
+    justify-content: space-between;
+    padding: 12px;
+
+}
+}

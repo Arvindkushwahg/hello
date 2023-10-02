@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+nav{
+	background-color: white;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 90px;
+    position: fixed;
+    top: 0;
+    }
+
+.menu a{
+    text-decoration: none;
+    font-size: 23px;
+    font-family: monospace;
+    margin: 0 10px;
+    color: black;
+}
+.menu button{
+    width: 126px;
+    height: 34px;
+    background: #fe70a8;
+    x+color: white;
+    border: none;
+    border-radius: 14px;
+    margin-top: 14px;
+    font-size: 16px;
+}
+.banner{
+    background: url(../Image/banner.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+.banner h1{
+    text-align: center;
+    color: #ff00b3;
+    font-size: 71px;
+    font-family: inherit;
+    padding-top: 326px;
+}
+.border{
+    background: #918a8a78;
+    width: 100%;
+    height: 60px;
+    margin-top: -47px;
+}
+.about{
+    background: white;
+    padding: 54px 220px;
+    text-align: center;
+}
+.about h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ff00b3;
+    margin-bottom: 8px;
+}
+.about p{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    /*font-family: sans-serif;*/
+    line-height: 22px;
+}
+.about button{
+    width: 183px;
+    height: 39px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 42px;
+    margin-top: 14px;
+    font-size: 16px;
+}
+.about button:hover{
+    background: black;
+}
+.press{
+    background: url(../image/fp2.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.team{
+    background: url(../image/fp3.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.brand{
+    background: #fe70a8;
+    width: 100%;
+    height: 250px;
+}
+footer{
+    background: white;
+    width: 100%;
+    height: 120px;
+    padding: 40px 130px;
+}
+footer .ram{
+    display: flex;
+    justify-content: space-between;
+}
+footer .raj{
+    display: flex;
+    justify-content: space-between;
+}
